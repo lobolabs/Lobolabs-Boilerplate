@@ -11,9 +11,17 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'Lobolabs-Boilerplate' => ['Pod/Assets/*.png']
-  }
+  s.subspec 'UserInterface' do |ss|
+    ss.dependency 'SnapKit', '~> 0.19.0'
+  end
+
+  s.subspec 'Networking' do |ss|
+    ss.dependency 'Alamofire', '~> 3.0'
+    ss.dependency 'SwiftyJSON', '~> 2.3.2'
+  end
+
+  s.subspec 'Logging' do |ss|
+    ss.dependency 'CocoaLumberjack/Swift', '~> 2.2.0'
+  end
 
 end
