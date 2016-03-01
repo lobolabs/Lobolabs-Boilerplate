@@ -22,7 +22,7 @@ pod "Lobolabs-Boilerplate"
 
 ## Author
 
-Fa[n]tastik, dmitry.fantastik@gmail.com
+Dmitry Fa[n]tastik, dmytro.korjakin@lobolabshq.com
 
 ## License
 

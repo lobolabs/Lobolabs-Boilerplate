@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = "https://github.com/lobolabs/Lobolabs-Boilerplate"
   s.license          = 'MIT'
-  s.author           = { "Fa[n]tastik" => "dmitry.fantastik@gmail.com" }
+  s.author           = { "Dmitry Fa[n]tastik" => "dmytro.korjakin@lobolabshq.com" }
   s.source           = { :git => "https://github.com/lobolabs/Lobolabs-Boilerplate.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'
