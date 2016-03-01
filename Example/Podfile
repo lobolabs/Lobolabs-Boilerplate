@@ -2,7 +2,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 
-target 'Lobolabs-Boilerplate_Tests', :exclusive => true do
+target 'Lobolabs-Boilerplate_Tests' do
   pod 'Lobolabs-Boilerplate', :path => '../'
 
   pod 'Quick', '~> 0.8.0'
